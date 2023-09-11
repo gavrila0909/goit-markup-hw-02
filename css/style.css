@@ -1,34 +1,58 @@
 :root {}
 
-.body-style { font-family: "Roboto" , sans-serif;}
+.body-style {font-family: "Roboto" , sans-serif; font-style: normal;}
 
 .header-style,.about-us-style, .main-style   {background-color: #FFFFFF;}
 .title-section-style, .footer-style {background-color: #2F303A;}
 .our-team-style {background-color: #F5F4FA;}
 
-.style-logo { color: #000000;}
+.logo-style { color: #000000;  font-family: "Raleway";
+    font-size: 26px; font-style: normal;font-weight: 700;text-decoration: none;}
+.web-style {color:#2196F3;}
 
 
-.link-style, .link {color: #000000; list-style: none; text-decoration: none;font-size: 14px;
-    font-style: normal;font-weight: 500; }
-.link-style, .link:visited {color: #000000;}
-.link-style .link:hover,.link-style .link:focus  {color:#2196F3}
+.link-header-style, .link {color: #000000;  text-decoration:none; font-size: 14px;
+    font-style: normal;font-weight: 500; list-style:none;}
+.link-header-style, .link:visited {color: #000000;}
+.link-header-style .link:hover,.link-header-style .link:focus  {color:#2196F3}
  
 .header-contacts, .contact {color: #757575; list-style: none; text-decoration: none;font-size: 14px;
     font-style: normal; font-weight: 500;}
 .header-contacts, .contact:hover {color: #2196F3;}
 
 
-
 .h1-title {color: #FFF;text-align: center;font-size: 44px;font-style: normal;
-    font-weight: 900;line-height: 60px; letter-spacing: 2.64px;text-transform: uppercase; width: 696px;}
+    font-weight: 900;line-height: 60px; letter-spacing: 2.64px;text-transform: uppercase; width: 696px; text-align: center;}
 
 .main-button {background-color: #2196F3; color: #FFF;text-align: center; border: none; width: 200px;
-height: 50px; flex-shrink: 0; font-size: 16px;font-style: normal;font-weight: 700;}
+height: 50px; flex-shrink: 0; font-size: 16px;font-style: normal;font-weight: 700; text-align: center; font-family: inherit;}
 .portofolio-buttons{list-style: none;}
- .buttons-style {background-color: #F5F4FA; color: #212121; border: none; font-size: 16px;
-    font-style: normal;font-weight: 500; }
+.buttons-style {background-color: #F5F4FA; color: #212121; border: none; font-size: 16px;
+    font-style: normal;font-weight: 500; font-family: inherit; }
 .buttons-style:hover{background-color: #2196F3; color: #FFF;}
 
+.features-style { list-style: none;}
+h3 { width: 270px; color: #212121; font-size: 14px; font-style: normal;font-weight: 700;
+    line-height: normal;letter-spacing: 0.42px;text-transform: uppercase; }
+h2{color: #212121;text-align: center;font-size: 36px;font-style: normal;
+    font-weight: 700;}
+.features-style p{color: #757575;font-size: 14px;font-style: normal;font-weight: 400;}
 
-.contacts {color: #757575; }
+.img-style {list-style: none;}
+
+.staf-style{list-style: none;}
+.staf-style span{color: #212121;text-align: center;font-size: 16px;
+    font-style: normal;font-weight: 500;}
+.staf-style p{color: #757575;text-align: center;font-size: 16px;font-style: normal;
+    font-weight: 400;}
+
+.street-style{color: #FFF; font-size: 14px; font-family: inherit; font-style: normal;font-weight: 400;}
+.footer-contact{color: rgba(255, 255, 255, 0.60);font-family:inherit;font-size: 14px;
+    font-style: normal;font-weight: 400; text-decoration: none;}
+
+
+.our-portofolio-style {list-style: none;}
+.our-portofolio-style span {color: #212121;font-size: 18px;font-style: normal;
+    font-weight: 700;}
+.our-portofolio-style p{color: #757575;font-size: 16px;font-style: normal;
+    font-weight: 400;}
