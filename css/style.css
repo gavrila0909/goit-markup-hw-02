@@ -45,19 +45,17 @@
 }
 
 
-.link-header-style, .link {
+.link-header-style, .link{
     text-decoration:none; 
     font-size: 14px;
     font-weight: 500; 
     list-style:none; 
-    line-height: normal; 
+    line-height: normal;
+    color: var(--main-text-color);
+    
 }
 
-.link-header-style, .link:visited {
-    color:var(--main-text-color)
-}
-
-.link-header-style .link:hover,.link-header-style .link:focus, .link-header-style .link:active{
+.link:hover, .link:focus {
     color:var(--main-activ-text-color);
 }
 
@@ -75,7 +73,7 @@
     font-weight: 500;
 }
 
-.header-contacts, .contact:hover{
+.contact:hover, .contact:focus{
     color:var(--main-activ-text-color);
 }
 
